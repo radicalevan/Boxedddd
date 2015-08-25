@@ -17,9 +17,11 @@
 
 
 
-//Box *box1 = [[Box alloc] initWithHeight:10 width:10 depth:10];
-
 -(instancetype)initWithHeight:(float)boxHeight andWidth:(float)width depth:(float)depth;
 
+
+-(float)volume;
+
+-(int)numberBoxFits:(Box*) box2;
 
 @end
